@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Local secrets & env
+.env
+.env.*
+
+# Generated media outputs (large binaries)
+outputs/
+*.mp4
+*.avi
+*.mov

@@ -1,0 +1,92 @@
+{
+  "project_name": "卖水果不伤心",
+  "project_slug": "demo_fruit_drama",
+  "style_prefix": "Live-action, cinematic Chinese urban short-drama style",
+  "video_config": {
+    "width": 864,
+    "height": 480,
+    "fps": 24,
+    "video_frames": 124,
+    "steps": 20,
+    "cfg_scale": 1.0,
+    "sampling_method": "euler"
+  },
+  "characters": [
+    {
+      "code": "S1",
+      "name": "隐富水果摊主",
+      "appearance_en": "a handsome 26-year-old Chinese man with neat short black hair, wearing a clean white T-shirt and a dark green canvas apron",
+      "voice_en": "a warm, calm, slightly amused Chinese baritone voice"
+    },
+    {
+      "code": "S2",
+      "name": "红裙拜金女",
+      "appearance_en": "a stylish 25-year-old Chinese woman with long wavy dark hair, wearing a fitted red dress and holding a luxury handbag",
+      "voice_en": "a sharp, mocking young Chinese female voice"
+    },
+    {
+      "code": "S3",
+      "name": "豪门老管家",
+      "appearance_en": "a dignified 50-year-old Chinese butler wearing a tailored black suit and white gloves",
+      "voice_en": "a deep, authoritative, respectful older Chinese male voice"
+    }
+  ],
+  "shots": [
+    {
+      "id": "ep01_s01",
+      "episode": 1,
+      "shot_index": 1,
+      "title": "第1镜：街头羞辱",
+      "scene_id": "LOC1",
+      "seed": 101,
+      "use_prev_last_frame": false,
+      "init_image": null,
+      "summary_zh": "夕阳街头水果摊，红裙女抱臂居高临下嘲讽男主落魄卖水果，男主平静抬眼微笑对视。",
+      "dialogue_zh": "S2：哟，落魄到卖水果，真让人伤心啊！",
+      "end_frame_anchor_zh": "男主双手停在车厘子上，抬眼平静微笑看红裙女，镜头定格在两人隔摊对峙。",
+      "prompt": "integrated_multimodal_description: [Shot 1] Live-action, cinematic Chinese urban short-drama style, medium two-shot at a bustling street market corner during warm golden sunset. A tidy wooden fruit cart is stacked with bright red cherries, golden durians, and green grapes under a warm glowing sign reading \"不伤心水果摊\". Behind the cart stands a handsome 26-year-old Chinese man (S1) with neat short black hair, wearing a clean white T-shirt and a dark green canvas apron, calmly wiping cherries with a relaxed half-smile. Standing in front of the cart is a stylish 25-year-old Chinese woman (S2) with long wavy dark hair, wearing a fitted red dress and holding a luxury handbag. She crosses her arms, looks down scornfully at the fruit stall, and says in a sharp, mocking young Chinese female voice (S2): <d>[Chinese] 哟，落魄到卖水果，真让人伤心啊！</d> As she finishes with a smug smirk, the man (S1) pauses his hands, slowly lifts his gaze to meet her eyes, and smiles calmly as the camera holds steady on both of them across the fruit stall.\n\noverall_soundscape: Warm evening street market ambience, distant chatter of passersby, faint city traffic, soft rustle of fruit packaging.\n\nnon_diegetic_music: Light playful staccato strings with a slightly cheeky urban comedy-drama rhythm."
+    },
+    {
+      "id": "ep01_s02",
+      "episode": 1,
+      "shot_index": 2,
+      "title": "第2镜：松弛反击",
+      "scene_id": "LOC1",
+      "seed": 102,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "镜头慢推，男主单手轻松抛接大榴莲淡定回呛，红裙女脸色僵硬翻白眼。",
+      "dialogue_zh": "S1：伤心？我卖水果，一小时赚你一年工资！",
+      "end_frame_anchor_zh": "男主将榴莲稳放回木架带笑，红裙女得意笑容消失、翻白眼恼怒瞪视。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action, cinematic Chinese urban short-drama style, continuing seamlessly from the sunset street market scene in <Picture 1> at the wooden fruit stall reading \"不伤心水果摊\". The camera pushes in with small amplitude at slow speed toward the handsome 26-year-old Chinese man in the white T-shirt and dark green apron (S1) and the red-dressed woman (S2) facing him across the fruit cart. Completely unfazed, the man (S1) effortlessly picks up a large golden durian in one hand, gives it a casual confident toss, and says in a warm, calm, slightly amused Chinese baritone voice (S1): <d>[Chinese] 伤心？我卖水果，一小时赚你一年工资！</d> He sets the durian neatly back onto the wooden stand with a relaxed grin while the red-dressed woman (S2) visibly stiffens, her smug smile fading into annoyed disbelief as she rolls her eyes.\n\noverall_soundscape: Soft thud of the heavy durian landing back on the wooden fruit stand, gentle sunset street market murmur, faint breeze.\n\nnon_diegetic_music: Subtle rhythmic bass pulse and crisp percussion building anticipation for a dramatic twist."
+    },
+    {
+      "id": "ep01_s03",
+      "episode": 1,
+      "shot_index": 3,
+      "title": "第3镜：霸总摊牌",
+      "scene_id": "LOC1",
+      "seed": 103,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "黑色豪车急刹停靠，老管家快步入画恭敬鞠躬称少爷，红裙女石化震惊，男主伸手解围裙。",
+      "dialogue_zh": "S3：少爷！千亿果园集团，等您回去签字！",
+      "end_frame_anchor_zh": "豪车停在路边，管家躬身在侧，红裙女瞪大眼微张嘴石化，男主双手伸到腰后解围裙。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action, cinematic Chinese urban short-drama style, continuing seamlessly from <Picture 1> at the sunset fruit stall reading \"不伤心水果摊\". Just as the annoyed red-dressed woman (S2) starts to glare at the calm fruit vendor (S1), a sleek glossy black luxury sedan pulls up briskly and stops right behind the street curb with headlights gleaming. A dignified 50-year-old Chinese butler (S3) wearing a tailored black suit and white gloves steps hurriedly into frame beside the fruit cart, bows deeply and respectfully toward the young man (S1), and announces in a deep, authoritative, respectful older Chinese male voice (S3): <d>[Chinese] 少爷！千亿果园集团，等您回去签字！</d> The red-dressed woman (S2) freezes in utter shock, eyes wide and mouth slightly open as she stares between the butler and the vendor, while the young man (S1) reaches behind his waist to untie his dark green apron.\n\noverall_soundscape: Crisp tire screech of the luxury sedan braking at the curb, solid car door closing, brisk leather footsteps on pavement, an audible sharp gasp from the stunned woman.\n\nnon_diegetic_music: Dramatic cinematic orchestral swell with deep booming bass hit and sweeping strings signaling an epic identity reveal."
+    },
+    {
+      "id": "ep01_s04",
+      "episode": 1,
+      "shot_index": 4,
+      "title": "第4镜：终极反转",
+      "scene_id": "LOC1",
+      "seed": 104,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "男主帅气褪下围裙搭上木车，斜睨脸色惨白的红裙女留下反问金句，潇洒走向豪车。",
+      "dialogue_zh": "S1：现在，到底是谁比较伤心呢？",
+      "end_frame_anchor_zh": "男主在管家礼貌指引下走向敞开的豪车门，红裙女呆立水果摊旁，镜头夕阳下微拉远。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Live-action, cinematic Chinese urban short-drama style, continuing seamlessly from <Picture 1> beside the sunset fruit stall reading \"不伤心水果摊\" with the black luxury sedan parked behind and the black-suited butler (S3) standing respectfully nearby. The handsome young man (S1) smoothly slips off his dark green canvas apron and drapes it casually over the wooden fruit cart, revealing his clean crisp white T-shirt. He glances sideways at the pale, speechless red-dressed woman (S2) with a cool, playful smirk, and says in his warm, slightly amused Chinese baritone voice (S1): <d>[Chinese] 现在，到底是谁比较伤心呢？</d> He turns smoothly on his heel and walks confidently toward the open door of the black luxury sedan as the butler gestures politely, leaving the stunned woman standing alone by the fruit stand while the camera pulls out slightly in golden sunset light.\n\noverall_soundscape: Soft rustle of the canvas apron draped on the wooden stall, confident steady footsteps walking toward the luxury car, warm evening city ambience.\n\nnon_diegetic_music: Triumphant, stylish modern Chinese short-drama electro-orchestral finale with crisp electric guitar riff and satisfying resolution."
+    }
+  ]
+}

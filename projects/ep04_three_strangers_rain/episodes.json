@@ -1,0 +1,210 @@
+{
+  "project_name": "暴雨民宿三个陌生人我竟帮通缉犯抓了无辜者",
+  "project_slug": "ep04_three_strangers_rain",
+  "style_prefix": "Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows",
+  "video_config": {
+    "width": 480,
+    "height": 864,
+    "fps": 24,
+    "video_frames": 124,
+    "steps": 20,
+    "cfg_scale": 1.0,
+    "sampling_method": "euler"
+  },
+  "characters": [
+    {
+      "code": "S1",
+      "name": "沈溪",
+      "appearance_en": "a 28-year-old Chinese woman with neat shoulder-length dark hair tied half-up and alert dark eyes, wearing a cozy dark cream wool sweater",
+      "voice_en": "a clear, expressive young Chinese female voice shifting from warm calm to chilled horror"
+    },
+    {
+      "code": "S2",
+      "name": "顾远",
+      "appearance_en": "a 35-year-old calm handsome Chinese man with short damp black hair and gentle composed eyes, wearing a faded ash-grey rain jacket with tight left cuff",
+      "voice_en": "a smooth, polite, eerily serene 35-year-old Chinese male baritone voice"
+    },
+    {
+      "code": "S3",
+      "name": "老马",
+      "appearance_en": "a 40-year-old burly Chinese man with thick stubble and flushed cheeks, wearing a soaked dark green tactical jacket",
+      "voice_en": "a loud, boastful, raspy older Chinese male voice"
+    },
+    {
+      "code": "S4",
+      "name": "特警队长",
+      "appearance_en": "a 36-year-old stern Chinese SWAT officer in black tactical gear and helmet holding a glowing police tablet",
+      "voice_en": "an urgent, authoritative, sharp Chinese male law-enforcement voice"
+    }
+  ],
+  "shots": [
+    {
+      "id": "ep01_s01",
+      "episode": 1,
+      "shot_index": 1,
+      "title": "第1集 镜1：灰衣男冒雨借宿藏左腕",
+      "scene_id": "LOC1",
+      "seed": 4101,
+      "use_prev_last_frame": false,
+      "init_image": null,
+      "summary_zh": "暴雨夜山顶木屋民宿，温润礼貌的灰衣男顾远借壁炉烤火，进门时悄然拉紧左袖遮住手腕。",
+      "dialogue_zh": "S2：老板娘，徒步迷路淋透了，借壁炉烤火行吗？",
+      "end_frame_anchor_zh": "顾远微笑微微欠身同时刻意拽紧左袖口，沈溪端着热姜茶热情点头。",
+      "prompt": "integrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, moody medium two-shot inside a rustic wooden mountain guesthouse living room lit by warm crackling fireplace flames with heavy blue night rain lashing against dark windows. Stepping in from the storm, a 35-year-old calm handsome Chinese man (S2) with short damp black hair and gentle composed eyes, wearing a faded ash-grey rain jacket, subtly tugs his tight left cuff down over his wrist and asks politely in a smooth, polite, eerily serene 35-year-old Chinese male baritone voice (S2): <d>[Chinese] 老板娘，徒步迷路淋透了，借壁炉烤火行吗？</d> Across from him, a 28-year-old Chinese woman (S1) with neat shoulder-length dark hair tied half-up in a cozy dark cream wool sweater smiles warmly holding a steaming ceramic mug of ginger tea.\n\noverall_soundscape: Heavy rain lashing wooden cabin windows, warm crackling fireplace logs, distant low thunder.\n\nnon_diegetic_music: Subtle atmospheric mystery cello notes hidden beneath cozy firelight stillness."
+    },
+    {
+      "id": "ep01_s02",
+      "episode": 1,
+      "shot_index": 2,
+      "title": "第1集 镜2：追踪壮汉吹嘘抓逃犯",
+      "scene_id": "LOC1",
+      "seed": 4102,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "二号壮汉老马闯入壁炉边豪饮烈酒，满脸得意吹嘘自己专抓重刑犯蹲守山脚逃犯领十万赏金。",
+      "dialogue_zh": "S3：我是专抓重刑犯的！今晚蹲那逃犯领十万！",
+      "end_frame_anchor_zh": "老马高举酒杯狂妄大笑，对面灰衣顾远面不改色静静端杯微笑。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> by the crackling cabin fireplace. Sitting boldly opposite the calm grey-jacket man (S2), a 40-year-old burly Chinese man (S3) with thick stubble and flushed cheeks, wearing a soaked dark green tactical jacket, slams down a liquor bottle, raises his glass proudly, and brags in a loud, boastful, raspy older Chinese male voice (S3): <d>[Chinese] 我是专抓重刑犯的！今晚蹲那逃犯领十万！</d> Across the firelight, S2 does not flinch a millimeter, watching S3 with a tranquil polite smile.\n\noverall_soundscape: Heavy glass liquor bottle thumping onto rustic wood table, pouring spirits, loud rain battering the roof.\n\nnon_diegetic_music: Quirky ominous bassline creating dark ironic suspense."
+    },
+    {
+      "id": "ep01_s03",
+      "episode": 1,
+      "shot_index": 3,
+      "title": "第1集 镜3：通缉犯与猎人把酒碰杯",
+      "scene_id": "LOC1",
+      "seed": 4103,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "灰衣顾远云淡风轻给自负的老马满酒碰杯，笑着祝他明天顺利拿到赏金，火光在眼底闪烁。",
+      "dialogue_zh": "S2：老哥真英雄！来干杯，祝你顺利拿到赏金！",
+      "end_frame_anchor_zh": "两只酒杯在火光中清脆相碰，老马大笑畅饮，顾远眼底深不可测。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> by the amber fireplace. Completely composed, the 35-year-old grey-jacket man (S2) leans forward to clink his liquor glass effortlessly against the burly tracker's glass (S3), flickering flames dancing eerily in his calm eyes as he toasts warmly in his smooth, polite, eerily serene 35-year-old Chinese male baritone voice (S2): <d>[Chinese] 老哥真英雄！来干杯，祝你顺利拿到赏金！</d> Flattered, S3 roars with hearty laughter and downs his drink.\n\noverall_soundscape: Crisp glass clink, hearty drunken chuckle, crackling firewood and rising storm wind outside.\n\nnon_diegetic_music: Subtle chilling strings sliding beneath the warm deceptive atmosphere."
+    },
+    {
+      "id": "ep01_s04",
+      "episode": 1,
+      "shot_index": 4,
+      "title": "第1集 镜4：第三陌生人吓瘫狂奔",
+      "scene_id": "LOC1",
+      "seed": 4104,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "木门推开，浑身湿透的瘦弱黄雨衣青年刚扫一眼壁炉边两人便面如死灰转身冲入暴雨，沈溪满脸愕然。",
+      "dialogue_zh": "S1：那瘦子刚推门看了一眼，怎么吓得转身跑了？",
+      "end_frame_anchor_zh": "大门洞开暴雨灌入，沈溪手扶门框错愕追望雨幕中逃窜的黄色身影。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> as the heavy wooden front door creaks open in a flash of blue lightning. A skinny terrified young man in a drenched yellow raincoat peers in, locks eyes with S2 and S3 by the fireplace, gasps in sheer terror, and bolts instantly back into the stormy night. Startled beside the counter, the 28-year-old female innkeeper (S1) in the cream wool sweater stares at the swinging open door and exclaims in a clear, expressive young Chinese female voice (S1): <d>[Chinese] 那瘦子刚推门看了一眼，怎么吓得转身跑了？</d> Wind and rain blow violently across the threshold.\n\noverall_soundscape: Creaking front door swinging open, sharp terrified gasp, thunderclap and splashing boots sprinting into rain.\n\nnon_diegetic_music: Sudden suspenseful brass sting and fast urgent percussion starting."
+    },
+    {
+      "id": "ep02_s01",
+      "episode": 2,
+      "shot_index": 1,
+      "title": "第2集 镜1：广播拉响老马带头追捕",
+      "scene_id": "LOC1",
+      "seed": 4201,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "桌角应急广播滋滋播报重案逃犯入山，老马猛拍桌子跳起断定逃跑的瘦子就是逃犯，大喊众人追捕。",
+      "dialogue_zh": "S3：广播播了！就是那瘦子越狱，快跟我追！",
+      "end_frame_anchor_zh": "老马抓起强光手电怒指暴雨门外，沈溪紧张点头转身抓外套。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> inside the chaotic cabin living room. As an emergency radio crackles loudly with a fugitive alert on the counter, the burly 40-year-old tracker (S3) in the dark green tactical jacket leaps to his feet slamming his palm on the wood, grabs a flashlight, and bellows excitedly in his loud, boastful, raspy older Chinese male voice (S3): <d>[Chinese] 广播播了！就是那瘦子越狱，快跟我追！</d> Alarmed, the 28-year-old innkeeper (S1) hurries to grab her rain gear beside the door.\n\noverall_soundscape: Crackling emergency radio static, loud table slam, chairs scraping urgently across wooden floor.\n\nnon_diegetic_music: Driving suspense chase drums and sharp staccato violins accelerating."
+    },
+    {
+      "id": "ep02_s02",
+      "episode": 2,
+      "shot_index": 2,
+      "title": "第2集 镜2：逃犯递绳主动守后门",
+      "scene_id": "LOC1",
+      "seed": 4202,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "混乱中灰衣顾远冷静从玄关抽出一捆粗尼龙绳递给沈溪，温柔叮嘱她别受伤并主动提出守后门。",
+      "dialogue_zh": "S2：老板娘拿好粗绳别受伤，我替你守着后门。",
+      "end_frame_anchor_zh": "顾远将粗尼龙绳稳稳放进沈溪手中，目光温柔深邃目送她冲入雨夜。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> near the wooden cabin entryway. Calm amid the frantic rush, the 35-year-old grey-jacket man (S2) smoothly hands a thick coil of nylon rope into the 28-year-old innkeeper's hands (S1) with gentle attentive concern, reassuring her in his smooth, polite, eerily serene 35-year-old Chinese male baritone voice (S2): <d>[Chinese] 老板娘拿好粗绳别受伤，我替你守着后门。</d> Grateful, S1 clutches the nylon rope and rushes out after S3 into the pouring blue night rain while S2 watches calmly.\n\noverall_soundscape: Coarse rub of thick nylon rope handed over, hurried footsteps running out into pouring rain.\n\nnon_diegetic_music: Eerie deceptive calm strings hinting at a hidden trap."
+    },
+    {
+      "id": "ep02_s03",
+      "episode": 2,
+      "shot_index": 3,
+      "title": "第2集 镜3：五花大绑锁住无辜瘦子",
+      "scene_id": "LOC1",
+      "seed": 4203,
+      "use_prev_last_frame": false,
+      "init_image": null,
+      "summary_zh": "老马与沈溪淋透冲回客厅，得意洋洋将哭喊无辜的黄雨衣瘦子五花大绑锁进杂物间邀功。",
+      "dialogue_zh": "S3：别装无辜！逃犯抓住了，赏金归我老马！",
+      "end_frame_anchor_zh": "老马扣死杂物间木门铁栓得意叉腰大笑，浑身滴水的沈溪长舒一口气。",
+      "prompt": "integrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, tense medium shot back inside the rustic wooden guesthouse living room an hour later. Soaked from head to toe, the burly 40-year-old tracker (S3) in his dripping dark green jacket shoves the bound, mud-spattered skinny young man in the yellow raincoat into a wooden storage room, bolts the door shut triumphantly, and boasts proudly in his loud, boastful, raspy older Chinese male voice (S3): <d>[Chinese] 别装无辜！逃犯抓住了，赏金归我老马！</d> Standing beside him catching her breath, the damp 28-year-old innkeeper (S1) wipes rain from her cheek in relief.\n\noverall_soundscape: Muffled desperate sobbing behind a bolted wooden door, heavy iron latch sliding shut, dripping rainwater puddles.\n\nnon_diegetic_music: Tense triumphant brass chord underlaid with a subtly unsettling dark bass note."
+    },
+    {
+      "id": "ep02_s04",
+      "episode": 2,
+      "shot_index": 4,
+      "title": "第2集 镜4：灰衣大哥微笑从容离去",
+      "scene_id": "LOC1",
+      "seed": 4204,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "黎明雨势渐小，灰衣顾远背上轻便背包在门口礼貌挥手，微笑夸赞姜茶好喝后从容融入晨雾。",
+      "dialogue_zh": "S2：雨小了，我赶早班车先走，姜茶很好喝。",
+      "end_frame_anchor_zh": "顾远在青灰晨雾中温和挥手转身走远，沈溪站在门廊微笑目送。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> near the open front doorway as pale misty dawn breaks and the rain softens to drizzle. Slinging a light backpack over one shoulder, the 35-year-old grey-jacket man (S2) turns back with a serene courteous smile toward the 28-year-old innkeeper (S1) and bids farewell in his smooth, polite, eerily serene 35-year-old Chinese male baritone voice (S2): <d>[Chinese] 雨小了，我赶早班车先走，姜茶很好喝。</d> Giving a polite nod, he steps calmly into the thick pale mountain fog and vanishes from sight.\n\noverall_soundscape: Gentle subsiding dawn drizzle, soft crunch of boots walking away on wet gravel, quiet mountain mist wind.\n\nnon_diegetic_music: Haunting quiet solo piano melody forecasting an imminent twist."
+    },
+    {
+      "id": "ep03_s01",
+      "episode": 3,
+      "shot_index": 1,
+      "title": "第3集 镜1：特警破门怒斥抓错亲弟",
+      "scene_id": "LOC2",
+      "seed": 4301,
+      "use_prev_last_frame": false,
+      "init_image": null,
+      "summary_zh": "红蓝警灯闪爆清晨木屋，特警队长踹开杂物间扯下瘦子头套，脸色大变厉声喝斥老马抓错逃犯亲弟。",
+      "dialogue_zh": "S4：胡闹！这是逃犯亲弟弟，冒雨来劝自首的！",
+      "end_frame_anchor_zh": "特警队长怒目瞪向呆若木鸡的老马，瘦子瘫在门后哭泣，沈溪脸色骤变。",
+      "prompt": "integrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, shocking high-energy medium shot inside the rustic wooden mountain guesthouse living room flooded with pale misty morning daylight and flashing red-and-blue police lights through the open front door. Stepping out of the storage room where the bound young man sits weeping, a 36-year-old stern Chinese SWAT officer (S4) in black tactical gear and helmet holding a glowing police tablet glares furiously at the stunned burly tracker (S3) and barks in an urgent, authoritative, sharp Chinese male law-enforcement voice (S4): <d>[Chinese] 胡闹！这是逃犯亲弟弟，冒雨来劝自首的！</d> The proud grin instantly freezes dead on S3's face as the 28-year-old innkeeper (S1) gasps beside the counter.\n\noverall_soundscape: Wailing police sirens stopping outside, heavy tactical boots slamming on wooden floor, sharp shocked gasp.\n\nnon_diegetic_music: Explosive dramatic timpani boom shattering the morning quiet."
+    },
+    {
+      "id": "ep03_s02",
+      "episode": 3,
+      "shot_index": 2,
+      "title": "第3集 镜2：警务通亮出灰衣通缉照",
+      "scene_id": "LOC2",
+      "seed": 4302,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "特警队长猛地将警务通通缉令举到沈溪与老马眼前，高清照片赫然是灰衣顾远，强调他左腕有拷伤。",
+      "dialogue_zh": "S4：真通缉犯穿灰衣左腕有伤，你们见过吗？",
+      "end_frame_anchor_zh": "屏幕上红字通缉照清晰映出顾远的脸，沈溪与老马双双瞳孔地震惨白如纸。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> in the red-and-blue lit morning cabin. The stern 36-year-old SWAT officer (S4) thrusts his glowing police tablet directly in front of the 28-year-old innkeeper (S1) and burly tracker (S3), displaying an unmistakable A-class wanted photo of the calm 35-year-old grey-jacket man, demanding sharply in his urgent, authoritative, sharp Chinese male law-enforcement voice (S4): <d>[Chinese] 真通缉犯穿灰衣左腕有伤，你们见过吗？</d> Both S1 and S3 turn chalk-white, pupils shrinking in sheer paralyzed horror.\n\noverall_soundscape: Piercing high-pitched psychological ringing tinnitus, stunned dead silence inside the wooden cabin.\n\nnon_diegetic_music: Bone-chilling dissonant horror violin screech surging upward."
+    },
+    {
+      "id": "ep03_s03",
+      "episode": 3,
+      "shot_index": 3,
+      "title": "第3集 镜3：细思极恐回想整晚碰杯",
+      "scene_id": "LOC2",
+      "seed": 4303,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "老马双腿一软瘫坐在壁炉前，沈溪浑身发抖失声说出灰衣男拉紧左袖遮伤、竟跟老马喝了一整夜酒的真相。",
+      "dialogue_zh": "S1：他拉紧左袖遮伤，跟老马喝了一整夜酒！",
+      "end_frame_anchor_zh": "沈溪颤抖捂嘴后退撞上木吧台，老马呆滞瘫地冷汗狂流，特警迅速拔枪冲出门追击。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> inside the cabin. As the burly tracker (S3) collapses weakly onto the wooden floor in total mortified dread, the 28-year-old innkeeper (S1) stumbles backward against the wooden counter trembling violently, crying out in a chilled horrified young Chinese female voice (S1): <d>[Chinese] 他拉紧左袖遮伤，跟老马喝了一整夜酒！</d> Immediately snapping orders into his shoulder radio, the SWAT officer (S4) sprints out the front door into the mist.\n\noverall_soundscape: Urgent police radio chatter shouting roadblock orders, heavy boots rushing outside, trembling ragged breathing from S1.\n\nnon_diegetic_music: Pounding suspense heartbeat bass fading abruptly into cold hollow silence."
+    },
+    {
+      "id": "ep03_s04",
+      "episode": 3,
+      "shot_index": 4,
+      "title": "第3集 镜4：姜茶杯底的毛骨悚然字条",
+      "scene_id": "LOC2",
+      "seed": 4304,
+      "use_prev_last_frame": true,
+      "init_image": null,
+      "summary_zh": "空荡客厅中，沈溪发抖抽出姜茶杯底压着的两张百元钞与字条，耳畔响起顾远优雅礼貌却令人毛骨悚然的留语。",
+      "dialogue_zh": "S2：绳结打太松了，谢老板娘帮我拖住一整夜。",
+      "end_frame_anchor_zh": "微距定格工整字条与双倍房费，窗外苍茫山雾吞没远路，寒意直透屏幕。",
+      "prompt": "For the target video, at 0.00 seconds into the target video, <Picture 1> (from [Shot 1]) is fully referenced.\n\nintegrated_multimodal_description: [Shot 1] Atmospheric modern Chinese suspense mystery webtoon anime style, warm fireplace amber glow clashing against stormy blue rain outside cabin windows, sharp cinematic shadows, continuing seamlessly from <Picture 1> in the eerily silent emptied cabin. Left trembling beside the wooden counter, the 28-year-old innkeeper (S1) pulls a neatly folded paper note from beneath the empty ceramic ginger tea mug lying beside two crisp folded red banknotes. As the camera pushes into an extreme close-up of the calm elegant ink handwriting with misty fog visible outside the window, a chilling phantom memory echoes in the smooth, polite, eerily serene 35-year-old Chinese male baritone voice (S2): <d>[Chinese] 绳结打太松了，谢老板娘帮我拖住一整夜。</d> S1's eyes widen in lingering goosebump dread as mist swallows the mountain road outside.\n\noverall_soundscape: Faint fading distant sirens, crisp rustle of unfolded note paper, soft haunting ceramic cup clink against dark wood.\n\nnon_diegetic_music: Sparse chilling music-box notes lingering unresolved into cold silence."
+    }
+  ]
+}
